@@ -1,0 +1,10 @@
+<h1>Swell Data</h1>
+<%#= @swellData.inspect %>
+
+<% @swellData.each do |i| %>
+	<p>Time: <%= i[:hour] %></p>
+	<p>Day: <%= i[:day_name] + ", " + i[:month] + '/' + i[:day] %></p>
+	<p>Surf: <%= i[:surf] %></p>
+	<p>Wind: <%= i[:wind] %></p>
+	<br>
+<% end %>
