@@ -1,0 +1,178 @@
+<?xml version="1.0" ?> 
+<surfcond_xml update="Jun 18 6:00 pm"> 
+<data id="0" surf="10" cond="3" day="18" day_name="THU" hour="8am" month="6" swell1="ESE  2.1 ft @  6 sec" swell2="ESE  1.1 ft @  9 sec" wind="SSE 6 mph" />
+<data id="1" surf="10" cond="3" day="18" day_name="THU" hour="9am" month="6" swell1="ESE  2.1 ft @  6 sec" swell2="ESE  1.1 ft @  9 sec" wind="ESE 9 mph" />
+<data id="2" surf="10" cond="3" day="18" day_name="THU" hour="10am" month="6" swell1="ESE  2.0 ft @  6 sec" swell2="ESE  1.1 ft @  9 sec" wind="SE  11 mph" />
+<data id="3" surf="10" cond="3" day="18" day_name="THU" hour="11am" month="6" swell1="ESE  2.0 ft @  6 sec" swell2="ESE  1.1 ft @  9 sec" wind="SE  11 mph" />
+<data id="4" surf=" 8" cond="3" day="18" day_name="THU" hour="12pm" month="6" swell1="ESE  1.1 ft @  9 sec" swell2="ESE  2.0 ft @  6 sec" wind="SE  10 mph" />
+<data id="5" surf=" 8" cond="3" day="18" day_name="THU" hour="1pm" month="6" swell1="ESE  1.8 ft @  7 sec" swell2="ESE  1.1 ft @  9 sec" wind="SE  10 mph" />
+<data id="6" surf=" 8" cond="3" day="18" day_name="THU" hour="2pm" month="6" swell1="ESE  1.8 ft @  7 sec" swell2="ESE  1.1 ft @  9 sec" wind="SE  9 mph" />
+<data id="7" surf=" 8" cond="3" day="18" day_name="THU" hour="3pm" month="6" swell1="ESE  1.8 ft @  7 sec" swell2="ESE  1.1 ft @  9 sec" wind="SE  9 mph" />
+<data id="8" surf="10" cond="3" day="18" day_name="THU" hour="4pm" month="6" swell1="SE   1.6 ft @  9 sec" swell2="E    1.3 ft @  7 sec" wind="SE  9 mph" />
+<data id="9" surf="11" cond="3" day="18" day_name="THU" hour="5pm" month="6" swell1="SE   1.5 ft @  9 sec" swell2="E    1.2 ft @  6 sec" wind="SSE 9 mph" />
+<data id="10" surf="12" cond="3" day="18" day_name="THU" hour="6pm" month="6" swell1="SE   1.5 ft @  9 sec" swell2="E    1.2 ft @  6 sec" wind="SE  9 mph" />
+<data id="11" surf="13" cond="3" day="18" day_name="THU" hour="7pm" month="6" swell1="ESE  1.9 ft @  9 sec" swell2="SSE  1.4 ft @  4 sec" wind="SE  9 mph" />
+<data id="12" surf="15" cond="3" day="18" day_name="THU" hour="8pm" month="6" swell1="ESE  1.8 ft @  9 sec" swell2="SSE  1.4 ft @  4 sec" wind="SE  9 mph" />
+<data id="13" surf="15" cond="3" day="18" day_name="THU" hour="9pm" month="6" swell1="ESE  1.8 ft @  9 sec" swell2="SSE  1.3 ft @  4 sec" wind="SE  9 mph" />
+<data id="14" surf="15" cond="3" day="18" day_name="THU" hour="10pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="SSE  1.3 ft @  4 sec" wind="SE  8 mph" />
+<data id="15" surf="15" cond="3" day="18" day_name="THU" hour="11pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="SSE  1.4 ft @  4 sec" wind="SSE 8 mph" />
+<data id="16" surf="14" cond="3" day="19" day_name="FRI" hour="12am" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="SSE  1.4 ft @  4 sec" wind="SSE 8 mph" />
+<data id="17" surf="13" cond="2" day="19" day_name="FRI" hour="1am" month="6" swell1="ESE  1.6 ft @  9 sec" swell2="SSE  1.5 ft @  4 sec" wind="S   7 mph" />
+<data id="18" surf="12" cond="3" day="19" day_name="FRI" hour="2am" month="6" swell1="ESE  1.6 ft @  9 sec" swell2="SSE  1.5 ft @  4 sec" wind="S   8 mph" />
+<data id="19" surf="10" cond="2" day="19" day_name="FRI" hour="3am" month="6" swell1="ESE  1.5 ft @  9 sec" swell2="SSE  1.5 ft @  5 sec" wind="SSW 7 mph" />
+<data id="20" surf="10" cond="1" day="19" day_name="FRI" hour="4am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SSE  1.5 ft @  5 sec" wind="SW  7 mph" />
+<data id="21" surf="10" cond="1" day="19" day_name="FRI" hour="5am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SSE  1.6 ft @  5 sec" wind="WSW 9 mph" />
+<data id="22" surf="10" cond="1" day="19" day_name="FRI" hour="6am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SE   1.6 ft @  5 sec" wind="W   9 mph" />
+<data id="23" surf=" 8" cond="1" day="19" day_name="FRI" hour="7am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SE   1.6 ft @  5 sec" wind="W   10 mph" />
+<data id="24" surf=" 8" cond="1" day="19" day_name="FRI" hour="8am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SSE  1.6 ft @  5 sec" wind="W   9 mph" />
+<data id="25" surf=" 8" cond="1" day="19" day_name="FRI" hour="9am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SSE  1.6 ft @  5 sec" wind="W   7 mph" />
+<data id="26" surf=" 8" cond="1" day="19" day_name="FRI" hour="10am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SSE  1.6 ft @  5 sec" wind="W   7 mph" />
+<data id="27" surf=" 8" cond="1" day="19" day_name="FRI" hour="11am" month="6" swell1="ESE  1.4 ft @  9 sec" swell2="SSE  1.6 ft @  5 sec" wind="W   7 mph" />
+<data id="28" surf="15" cond="1" day="19" day_name="FRI" hour="12pm" month="6" swell1="SE   2.0 ft @  9 sec" swell2="" wind="W   9 mph" />
+<data id="29" surf="15" cond="1" day="19" day_name="FRI" hour="1pm" month="6" swell1="SE   2.0 ft @  9 sec" swell2="" wind="WNW 9 mph" />
+<data id="30" surf="15" cond="1" day="19" day_name="FRI" hour="2pm" month="6" swell1="SE   1.8 ft @  9 sec" swell2="SSW  0.1 ft @  4 sec" wind="NW  8 mph" />
+<data id="31" surf="15" cond="1" day="19" day_name="FRI" hour="3pm" month="6" swell1="SE   1.8 ft @  9 sec" swell2="S    0.2 ft @  4 sec" wind="NW  8 mph" />
+<data id="32" surf="15" cond="1" day="19" day_name="FRI" hour="4pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="S    0.2 ft @  4 sec" wind="NW  9 mph" />
+<data id="33" surf="15" cond="1" day="19" day_name="FRI" hour="5pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="S    0.2 ft @  4 sec" wind="NW  10 mph" />
+<data id="34" surf="15" cond="2" day="19" day_name="FRI" hour="6pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="S    0.2 ft @  4 sec" wind="NNW 10 mph" />
+<data id="35" surf="15" cond="2" day="19" day_name="FRI" hour="7pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="S    0.2 ft @  4 sec" wind="NNW 9 mph" />
+<data id="36" surf="15" cond="1" day="19" day_name="FRI" hour="8pm" month="6" swell1="ESE  1.7 ft @  9 sec" swell2="S    0.2 ft @  4 sec" wind="NW  8 mph" />
+<data id="37" surf="15" cond="2" day="19" day_name="FRI" hour="9pm" month="6" swell1="SE   1.8 ft @  9 sec" swell2="" wind="NNW 8 mph" />
+<data id="38" surf="15" cond="2" day="19" day_name="FRI" hour="10pm" month="6" swell1="SE   1.8 ft @  9 sec" swell2="" wind="N   9 mph" />
+<data id="39" surf="15" cond="3" day="19" day_name="FRI" hour="11pm" month="6" swell1="ESE  1.8 ft @  9 sec" swell2="" wind="N   9 mph" />
+<data id="40" surf="15" cond="3" day="20" day_name="SAT" hour="12am" month="6" swell1="ESE  1.8 ft @  9 sec" swell2="N    0.1 ft @  2 sec" wind="NNE 11 mph" />
+<data id="41" surf="15" cond="3" day="20" day_name="SAT" hour="1am" month="6" swell1="ESE  1.8 ft @  9 sec" swell2="NNE  1.1 ft @  3 sec" wind="NNE 13 mph" />
+<data id="42" surf="10" cond="3" day="20" day_name="SAT" hour="2am" month="6" swell1="ESE  1.7 ft @  8 sec" swell2="ENE  1.5 ft @  3 sec" wind="NNE 14 mph" />
+<data id="43" surf="10" cond="3" day="20" day_name="SAT" hour="3am" month="6" swell1="ESE  1.6 ft @  8 sec" swell2="E    2.1 ft @  4 sec" wind="NE  14 mph" />
+<data id="44" surf="10" cond="3" day="20" day_name="SAT" hour="4am" month="6" swell1="E    2.6 ft @  4 sec" swell2="ESE  1.6 ft @  8 sec" wind="NE  14 mph" />
+<data id="45" surf="10" cond="3" day="20" day_name="SAT" hour="5am" month="6" swell1="E    2.8 ft @  4 sec" swell2="ESE  1.5 ft @  8 sec" wind="NE  15 mph" />
+<data id="46" surf="10" cond="3" day="20" day_name="SAT" hour="6am" month="6" swell1="E    3.0 ft @  5 sec" swell2="ESE  1.5 ft @  8 sec" wind="ENE 15 mph" />
+<data id="47" surf="10" cond="3" day="20" day_name="SAT" hour="7am" month="6" swell1="E    3.0 ft @  5 sec" swell2="ESE  1.1 ft @  9 sec" wind="ENE 14 mph" />
+<data id="48" surf="10" cond="3" day="20" day_name="SAT" hour="8am" month="6" swell1="ESE  1.1 ft @  9 sec" swell2="E    0.8 ft @  6 sec" wind="ENE 14 mph" />
+<data id="49" surf="15" cond="3" day="20" day_name="SAT" hour="9am" month="6" swell1="E    3.0 ft @  5 sec" swell2="ESE  1.1 ft @  9 sec" wind="ENE 13 mph" />
+<data id="50" surf="15" cond="3" day="20" day_name="SAT" hour="10am" month="6" swell1="ESE  3.0 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="ENE 12 mph" />
+<data id="51" surf="15" cond="3" day="20" day_name="SAT" hour="11am" month="6" swell1="ESE  3.1 ft @  5 sec" swell2="ESE  1.1 ft @  9 sec" wind="E   11 mph" />
+<data id="52" surf="15" cond="3" day="20" day_name="SAT" hour="12pm" month="6" swell1="ESE  3.2 ft @  5 sec" swell2="ESE  1.1 ft @  9 sec" wind="E   11 mph" />
+<data id="53" surf="15" cond="3" day="20" day_name="SAT" hour="1pm" month="6" swell1="ESE  3.2 ft @  5 sec" swell2="ESE  1.1 ft @  9 sec" wind="E   10 mph" />
+<data id="54" surf="15" cond="3" day="20" day_name="SAT" hour="2pm" month="6" swell1="ESE  3.3 ft @  5 sec" swell2="ESE  1.4 ft @  9 sec" wind="E   10 mph" />
+<data id="55" surf="15" cond="3" day="20" day_name="SAT" hour="3pm" month="6" swell1="ESE  3.3 ft @  5 sec" swell2="ESE  1.4 ft @  9 sec" wind="ESE 10 mph" />
+<data id="56" surf="15" cond="3" day="20" day_name="SAT" hour="4pm" month="6" swell1="ESE  3.4 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="ESE 10 mph" />
+<data id="57" surf="15" cond="3" day="20" day_name="SAT" hour="5pm" month="6" swell1="ESE  3.4 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="ESE 10 mph" />
+<data id="58" surf="15" cond="3" day="20" day_name="SAT" hour="6pm" month="6" swell1="ESE  3.4 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="ESE 9 mph" />
+<data id="59" surf="15" cond="3" day="20" day_name="SAT" hour="7pm" month="6" swell1="ESE  3.4 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="ESE 8 mph" />
+<data id="60" surf="15" cond="3" day="20" day_name="SAT" hour="8pm" month="6" swell1="ESE  3.4 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="SE  8 mph" />
+<data id="61" surf="15" cond="3" day="20" day_name="SAT" hour="9pm" month="6" swell1="ESE  3.4 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="SE  8 mph" />
+<data id="62" surf="15" cond="3" day="20" day_name="SAT" hour="10pm" month="6" swell1="ESE  3.3 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="SSE 8 mph" />
+<data id="63" surf="15" cond="3" day="20" day_name="SAT" hour="11pm" month="6" swell1="ESE  3.3 ft @  5 sec" swell2="ESE  1.2 ft @  9 sec" wind="SSE 8 mph" />
+<data id="64" surf="15" cond="3" day="21" day_name="SUN" hour="12am" month="6" swell1="ESE  3.2 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="SSE 8 mph" />
+<data id="65" surf="17" cond="3" day="21" day_name="SUN" hour="1am" month="6" swell1="ESE  3.2 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="S   8 mph" />
+<data id="66" surf="17" cond="3" day="21" day_name="SUN" hour="2am" month="6" swell1="ESE  3.1 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="S   9 mph" />
+<data id="67" surf="17" cond="2" day="21" day_name="SUN" hour="3am" month="6" swell1="ESE  3.1 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="S   7 mph" />
+<data id="68" surf="17" cond="2" day="21" day_name="SUN" hour="4am" month="6" swell1="ESE  3.1 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="SSW 6 mph" />
+<data id="69" surf="17" cond="2" day="21" day_name="SUN" hour="5am" month="6" swell1="ESE  3.1 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="SSW 4 mph" />
+<data id="70" surf="17" cond="2" day="21" day_name="SUN" hour="6am" month="6" swell1="ESE  3.0 ft @  6 sec" swell2="ESE  1.3 ft @  9 sec" wind="S   6 mph" />
+<data id="71" surf="17" cond="3" day="21" day_name="SUN" hour="7am" month="6" swell1="ESE  3.1 ft @  6 sec" swell2="ESE  1.1 ft @  9 sec" wind="S   7 mph" />
+<data id="72" surf="17" cond="3" day="21" day_name="SUN" hour="8am" month="6" swell1="ESE  3.0 ft @  6 sec" swell2="ESE  1.1 ft @  9 sec" wind="SSE 10 mph" />
+<data id="73" surf="17" cond="3" day="21" day_name="SUN" hour="9am" month="6" swell1="ESE  3.0 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="S   8 mph" />
+<data id="74" surf="17" cond="2" day="21" day_name="SUN" hour="10am" month="6" swell1="ESE  2.9 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="SSW 7 mph" />
+<data id="75" surf="17" cond="1" day="21" day_name="SUN" hour="11am" month="6" swell1="ESE  3.0 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="SW  8 mph" />
+<data id="76" surf="17" cond="1" day="21" day_name="SUN" hour="12pm" month="6" swell1="ESE  3.0 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="SW  5 mph" />
+<data id="77" surf="10" cond="1" day="21" day_name="SUN" hour="1pm" month="6" swell1="ESE  1.2 ft @  9 sec" swell2="SSE  2.3 ft @  5 sec" wind="WSW 3 mph" />
+<data id="78" surf="10" cond="1" day="21" day_name="SUN" hour="2pm" month="6" swell1="ESE  1.2 ft @  9 sec" swell2="SSE  2.4 ft @  5 sec" wind="NW  1 mph" />
+<data id="79" surf="13" cond="2" day="21" day_name="SUN" hour="3pm" month="6" swell1="SE   3.0 ft @  6 sec" swell2="ESE  1.2 ft @  9 sec" wind="N   3 mph" />
+<data id="80" surf="14" cond="2" day="21" day_name="SUN" hour="4pm" month="6" swell1="SE   2.2 ft @  6 sec" swell2="E    1.4 ft @  7 sec" wind="NNE 5 mph" />
+<data id="81" surf="15" cond="3" day="21" day_name="SUN" hour="5pm" month="6" swell1="SSE  3.0 ft @  6 sec" swell2="E    1.4 ft @  7 sec" wind="NNE 8 mph" />
+<data id="82" surf="16" cond="2" day="21" day_name="SUN" hour="6pm" month="6" swell1="SSE  3.1 ft @  6 sec" swell2="E    1.4 ft @  7 sec" wind="NE  5 mph" />
+<data id="83" surf="17" cond="2" day="21" day_name="SUN" hour="7pm" month="6" swell1="SSE  3.1 ft @  6 sec" swell2="E    1.4 ft @  7 sec" wind="NE  2 mph" />
+<data id="84" surf="17" cond="1" day="21" day_name="SUN" hour="8pm" month="6" swell1="SSE  3.2 ft @  6 sec" swell2="ESE  1.2 ft @  8 sec" wind="SE  2 mph" />
+<data id="85" surf="17" cond="2" day="21" day_name="SUN" hour="9pm" month="6" swell1="SSE  3.1 ft @  6 sec" swell2="ESE  1.4 ft @  8 sec" wind="S   7 mph" />
+<data id="86" surf="17" cond="2" day="21" day_name="SUN" hour="10pm" month="6" swell1="SSE  3.1 ft @  6 sec" swell2="ESE  1.4 ft @  8 sec" wind="SSW 7 mph" />
+<data id="87" surf="20" cond="2" day="21" day_name="SUN" hour="11pm" month="6" swell1="SSE  3.1 ft @  7 sec" swell2="ESE  1.4 ft @  8 sec" wind="SSW 8 mph" />
+<data id="88" surf="23" cond="2" day="22" day_name="MON" hour="12am" month="6" swell1="SSE  3.5 ft @  7 sec" swell2="E    1.3 ft @  7 sec" wind="SSW 10 mph" />
+<data id="89" surf="23" cond="3" day="22" day_name="MON" hour="1am" month="6" swell1="SSE  3.4 ft @  7 sec" swell2="E    1.4 ft @  7 sec" wind="SSW 12 mph" />
+<data id="90" surf="23" cond="3" day="22" day_name="MON" hour="2am" month="6" swell1="SSE  3.3 ft @  7 sec" swell2="E    1.4 ft @  7 sec" wind="SSW 14 mph" />
+<data id="91" surf="23" cond="1" day="22" day_name="MON" hour="3am" month="6" swell1="SSE  3.4 ft @  7 sec" swell2="E    1.4 ft @  7 sec" wind="SW  13 mph" />
+<data id="92" surf="23" cond="1" day="22" day_name="MON" hour="4am" month="6" swell1="S    3.1 ft @  7 sec" swell2="ESE  1.5 ft @  9 sec" wind="WSW 14 mph" />
+<data id="93" surf="23" cond="1" day="22" day_name="MON" hour="5am" month="6" swell1="S    3.0 ft @  7 sec" swell2="ESE  1.4 ft @  9 sec" wind="W   16 mph" />
+<data id="94" surf="23" cond="1" day="22" day_name="MON" hour="6am" month="6" swell1="S    2.9 ft @  7 sec" swell2="ESE  1.4 ft @  9 sec" wind="W   16 mph" />
+<data id="95" surf="20" cond="1" day="22" day_name="MON" hour="7am" month="6" swell1="S    2.9 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 16 mph" />
+<data id="96" surf="20" cond="1" day="22" day_name="MON" hour="8am" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 17 mph" />
+<data id="97" surf="20" cond="1" day="22" day_name="MON" hour="9am" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 16 mph" />
+<data id="98" surf="20" cond="1" day="22" day_name="MON" hour="10am" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 14 mph" />
+<data id="99" surf="17" cond="1" day="22" day_name="MON" hour="11am" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="NW  14 mph" />
+<data id="100" surf="17" cond="1" day="22" day_name="MON" hour="12pm" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="NW  13 mph" />
+<data id="101" surf="17" cond="1" day="22" day_name="MON" hour="1pm" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 12 mph" />
+<data id="102" surf="17" cond="1" day="22" day_name="MON" hour="2pm" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 12 mph" />
+<data id="103" surf="17" cond="1" day="22" day_name="MON" hour="3pm" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 11 mph" />
+<data id="104" surf="17" cond="1" day="22" day_name="MON" hour="4pm" month="6" swell1="S    2.9 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 10 mph" />
+<data id="105" surf="17" cond="1" day="22" day_name="MON" hour="5pm" month="6" swell1="S    2.9 ft @  7 sec" swell2="ESE  1.2 ft @  9 sec" wind="WNW 10 mph" />
+<data id="106" surf="21" cond="1" day="22" day_name="MON" hour="6pm" month="6" swell1="SSE  3.1 ft @  8 sec" swell2="E    0.8 ft @  7 sec" wind="W   11 mph" />
+<data id="107" surf="21" cond="1" day="22" day_name="MON" hour="7pm" month="6" swell1="SSE  3.1 ft @  8 sec" swell2="" wind="W   13 mph" />
+<data id="108" surf="21" cond="1" day="22" day_name="MON" hour="8pm" month="6" swell1="SSE  3.0 ft @  8 sec" swell2="E    0.7 ft @  6 sec" wind="W   14 mph" />
+<data id="109" surf="20" cond="1" day="22" day_name="MON" hour="9pm" month="6" swell1="S    2.7 ft @  8 sec" swell2="ESE  1.2 ft @  9 sec" wind="WSW 13 mph" />
+<data id="110" surf="19" cond="1" day="22" day_name="MON" hour="10pm" month="6" swell1="S    2.7 ft @  8 sec" swell2="ESE  1.1 ft @  9 sec" wind="SW  12 mph" />
+<data id="111" surf="18" cond="2" day="22" day_name="MON" hour="11pm" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.1 ft @  9 sec" wind="SW  13 mph" />
+<data id="112" surf="17" cond="2" day="23" day_name="TUE" hour="12am" month="6" swell1="S    2.8 ft @  7 sec" swell2="ESE  1.1 ft @  9 sec" wind="SW  12 mph" />
+<data id="113" surf="17" cond="1" day="23" day_name="TUE" hour="1am" month="6" swell1="S    2.7 ft @  7 sec" swell2="ESE  1.1 ft @  9 sec" wind="SW  11 mph" />
+<data id="114" surf="17" cond="1" day="23" day_name="TUE" hour="2am" month="6" swell1="S    2.7 ft @  7 sec" swell2="ESE  1.0 ft @  9 sec" wind="WSW 11 mph" />
+<data id="115" surf="17" cond="1" day="23" day_name="TUE" hour="3am" month="6" swell1="S    2.6 ft @  7 sec" swell2="ESE  1.0 ft @  9 sec" wind="WSW 11 mph" />
+<data id="116" surf="15" cond="1" day="23" day_name="TUE" hour="4am" month="6" swell1="S    2.5 ft @  7 sec" swell2="ESE  1.0 ft @  9 sec" wind="WSW 11 mph" />
+<data id="117" surf="15" cond="1" day="23" day_name="TUE" hour="5am" month="6" swell1="S    2.4 ft @  7 sec" swell2="ESE  1.0 ft @  9 sec" wind="WSW 11 mph" />
+<data id="118" surf="15" cond="1" day="23" day_name="TUE" hour="6am" month="6" swell1="S    2.4 ft @  7 sec" swell2="ESE  1.0 ft @  9 sec" wind="W   13 mph" />
+<data id="119" surf="15" cond="1" day="23" day_name="TUE" hour="7am" month="6" swell1="S    2.3 ft @  7 sec" swell2="ESE  1.0 ft @  9 sec" wind="W   15 mph" />
+<data id="120" surf="15" cond="1" day="23" day_name="TUE" hour="8am" month="6" swell1="S    2.3 ft @  7 sec" swell2="ESE  0.9 ft @  9 sec" wind="WNW 17 mph" />
+<data id="121" surf="14" cond="1" day="23" day_name="TUE" hour="9am" month="6" swell1="S    2.3 ft @  7 sec" swell2="ESE  0.9 ft @  9 sec" wind="WNW 15 mph" />
+<data id="122" surf="13" cond="1" day="23" day_name="TUE" hour="10am" month="6" swell1="S    2.3 ft @  7 sec" swell2="ESE  0.9 ft @  9 sec" wind="WNW 13 mph" />
+<data id="123" surf="12" cond="1" day="23" day_name="TUE" hour="11am" month="6" swell1="S    2.2 ft @  7 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  12 mph" />
+<data id="124" surf="10" cond="1" day="23" day_name="TUE" hour="12pm" month="6" swell1="S    2.2 ft @  6 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  11 mph" />
+<data id="125" surf="10" cond="1" day="23" day_name="TUE" hour="1pm" month="6" swell1="S    2.2 ft @  6 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  10 mph" />
+<data id="126" surf="10" cond="1" day="23" day_name="TUE" hour="2pm" month="6" swell1="S    2.1 ft @  6 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  8 mph" />
+<data id="127" surf="10" cond="1" day="23" day_name="TUE" hour="3pm" month="6" swell1="S    2.1 ft @  6 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  10 mph" />
+<data id="128" surf="10" cond="1" day="23" day_name="TUE" hour="4pm" month="6" swell1="S    2.0 ft @  6 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  11 mph" />
+<data id="129" surf=" 9" cond="1" day="23" day_name="TUE" hour="5pm" month="6" swell1="S    2.0 ft @  6 sec" swell2="ESE  0.9 ft @  9 sec" wind="NW  12 mph" />
+<data id="130" surf=" 8" cond="1" day="23" day_name="TUE" hour="6pm" month="6" swell1="ESE  0.9 ft @  8 sec" swell2="S    1.9 ft @  6 sec" wind="WNW 13 mph" />
+<data id="131" surf=" 7" cond="1" day="23" day_name="TUE" hour="7pm" month="6" swell1="ESE  0.9 ft @  8 sec" swell2="S    1.8 ft @  6 sec" wind="W   14 mph" />
+<data id="132" surf=" 5" cond="1" day="23" day_name="TUE" hour="8pm" month="6" swell1="S    1.7 ft @  6 sec" swell2="" wind="W   16 mph" />
+<data id="133" surf=" 5" cond="1" day="23" day_name="TUE" hour="9pm" month="6" swell1="S    1.7 ft @  6 sec" swell2="" wind="W   14 mph" />
+<data id="134" surf=" 5" cond="1" day="23" day_name="TUE" hour="10pm" month="6" swell1="S    1.6 ft @  6 sec" swell2="" wind="WNW 14 mph" />
+<data id="135" surf=" 8" cond="1" day="23" day_name="TUE" hour="11pm" month="6" swell1="ESE  0.9 ft @  8 sec" swell2="S    1.6 ft @  6 sec" wind="NW  15 mph" />
+<data id="136" surf=" 8" cond="2" day="24" day_name="WED" hour="12am" month="6" swell1="SE   0.9 ft @  8 sec" swell2="S    1.7 ft @  6 sec" wind="NW  14 mph" />
+<data id="137" surf=" 5" cond="3" day="24" day_name="WED" hour="1am" month="6" swell1="S    1.8 ft @  6 sec" swell2="" wind="NNW 15 mph" />
+<data id="138" surf=" 5" cond="3" day="24" day_name="WED" hour="2am" month="6" swell1="S    1.8 ft @  6 sec" swell2="" wind="N   17 mph" />
+<data id="139" surf="10" cond="3" day="24" day_name="WED" hour="3am" month="6" swell1="ESE  0.9 ft @  8 sec" swell2="S    1.8 ft @  6 sec" wind="N   16 mph" />
+<data id="140" surf="10" cond="3" day="24" day_name="WED" hour="4am" month="6" swell1="ESE  0.9 ft @  8 sec" swell2="S    1.8 ft @  6 sec" wind="N   15 mph" />
+<data id="141" surf=" 9" cond="3" day="24" day_name="WED" hour="5am" month="6" swell1="S    1.8 ft @  6 sec" swell2="N    0.4 ft @  3 sec" wind="N   14 mph" />
+<data id="142" surf=" 8" cond="3" day="24" day_name="WED" hour="6am" month="6" swell1="SSE  1.0 ft @  8 sec" swell2="S    1.6 ft @  6 sec" wind="N   13 mph" />
+<data id="143" surf=" 8" cond="3" day="24" day_name="WED" hour="7am" month="6" swell1="SSE  1.0 ft @  8 sec" swell2="S    1.6 ft @  6 sec" wind="NNE 13 mph" />
+<data id="144" surf="11" cond="3" day="24" day_name="WED" hour="8am" month="6" swell1="S    1.9 ft @  6 sec" swell2="NNE  1.2 ft @  3 sec" wind="NE  14 mph" />
+<data id="145" surf="13" cond="3" day="24" day_name="WED" hour="9am" month="6" swell1="S    1.9 ft @  7 sec" swell2="ESE  0.9 ft @  9 sec" wind="NE  14 mph" />
+<data id="146" surf="13" cond="3" day="24" day_name="WED" hour="10am" month="6" swell1="S    1.9 ft @  7 sec" swell2="ESE  0.9 ft @  9 sec" wind="NNE 14 mph" />
+<data id="147" surf="13" cond="3" day="24" day_name="WED" hour="11am" month="6" swell1="S    1.9 ft @  7 sec" swell2="ESE  0.8 ft @  9 sec" wind="NNE 13 mph" />
+<data id="148" surf="13" cond="3" day="24" day_name="WED" hour="12pm" month="6" swell1="S    1.9 ft @  7 sec" swell2="ESE  0.8 ft @  9 sec" wind="NNE 10 mph" />
+<data id="149" surf="13" cond="3" day="24" day_name="WED" hour="1pm" month="6" swell1="S    1.8 ft @  7 sec" swell2="ESE  0.8 ft @  9 sec" wind="NE  7 mph" />
+<data id="150" surf="13" cond="2" day="24" day_name="WED" hour="2pm" month="6" swell1="S    1.8 ft @  7 sec" swell2="NE   0.8 ft @  3 sec" wind="NE  4 mph" />
+<data id="151" surf=" 8" cond="1" day="24" day_name="WED" hour="3pm" month="6" swell1="S    1.8 ft @  7 sec" swell2="ESE  0.8 ft @  9 sec" wind="E   2 mph" />
+<data id="152" surf=" 8" cond="2" day="24" day_name="WED" hour="4pm" month="6" swell1="S    1.7 ft @  7 sec" swell2="ESE  0.8 ft @  9 sec" wind="S   4 mph" />
+<data id="153" surf=" 5" cond="2" day="24" day_name="WED" hour="5pm" month="6" swell1="S    1.7 ft @  6 sec" swell2="ESE  0.8 ft @  9 sec" wind="S   7 mph" />
+<data id="154" surf=" 5" cond="2" day="24" day_name="WED" hour="6pm" month="6" swell1="S    1.6 ft @  6 sec" swell2="ESE  0.8 ft @  9 sec" wind="SSW 10 mph" />
+<data id="155" surf=" 5" cond="3" day="24" day_name="WED" hour="7pm" month="6" swell1="S    1.6 ft @  6 sec" swell2="ESE  0.8 ft @  9 sec" wind="SSW 13 mph" />
+<data id="156" surf=" 5" cond="3" day="24" day_name="WED" hour="8pm" month="6" swell1="S    1.6 ft @  6 sec" swell2="ESE  0.7 ft @  9 sec" wind="SSW 17 mph" />
+<data id="157" surf=" 5" cond="2" day="24" day_name="WED" hour="9pm" month="6" swell1="S    1.5 ft @  6 sec" swell2="" wind="SW  13 mph" />
+<data id="158" surf=" 3" cond="1" day="24" day_name="WED" hour="10pm" month="6" swell1="S    1.4 ft @  6 sec" swell2="" wind="WSW 11 mph" />
+<data id="159" surf=" 3" cond="1" day="24" day_name="WED" hour="11pm" month="6" swell1="S    1.4 ft @  6 sec" swell2="" wind="W   11 mph" />
+<data id="160" surf=" 3" cond="1" day="25" day_name="THU" hour="12am" month="6" swell1="S    1.4 ft @  6 sec" swell2="" wind="WNW 9 mph" />
+<data id="161" surf=" 3" cond="1" day="25" day_name="THU" hour="1am" month="6" swell1="S    1.3 ft @  6 sec" swell2="" wind="NNW 10 mph" />
+<data id="162" surf=" 3" cond="2" day="25" day_name="THU" hour="2am" month="6" swell1="S    1.3 ft @  6 sec" swell2="" wind="N   12 mph" />
+<data id="163" surf=" 3" cond="3" day="25" day_name="THU" hour="3am" month="6" swell1="S    1.4 ft @  6 sec" swell2="" wind="NNW 12 mph" />
+<data id="164" surf=" 3" cond="2" day="25" day_name="THU" hour="4am" month="6" swell1="S    1.3 ft @  6 sec" swell2="ESE  0.7 ft @  9 sec" wind="NW  13 mph" />
+<data id="165" surf=" 3" cond="1" day="25" day_name="THU" hour="5am" month="6" swell1="S    1.4 ft @  6 sec" swell2="ESE  0.7 ft @  9 sec" wind="NW  15 mph" />
+<data id="166" surf=" 3" cond="1" day="25" day_name="THU" hour="6am" month="6" swell1="S    1.4 ft @  6 sec" swell2="ESE  0.7 ft @  9 sec" wind="NW  15 mph" />
+<data id="167" surf=" 3" cond="1" day="25" day_name="THU" hour="7am" month="6" swell1="S    1.4 ft @  6 sec" swell2="ESE  0.7 ft @  9 sec" wind="NW  14 mph" />
+<data id="168" surf=" 3" cond="1" day="25" day_name="THU" hour="8am" month="6" swell1="S    1.4 ft @  6 sec" swell2="ESE  0.7 ft @  9 sec" wind="NW  14 mph" />
+<data id="169" surf=" 3" cond="1" day="25" day_name="THU" hour="9am" month="6" swell1="S    1.4 ft @  6 sec" swell2="ESE  0.8 ft @  9 sec" wind="NW  14 mph" />
+<data id="170" surf=" 3" cond="1" day="25" day_name="THU" hour="10am" month="6" swell1="S    1.4 ft @  6 sec" swell2="ESE  0.8 ft @  9 sec" wind="NW  13 mph" />
+<data id="171" surf=" 3" cond="2" day="25" day_name="THU" hour="11am" month="6" swell1="S    1.4 ft @  6 sec" swell2="SE   0.8 ft @  9 sec" wind="NW  13 mph" />
+<data id="172" surf=" 3" cond="1" day="25" day_name="THU" hour="12pm" month="6" swell1="S    1.4 ft @  6 sec" swell2="SE   0.8 ft @  9 sec" wind="NW  12 mph" />
+<data id="173" surf=" 3" cond="1" day="25" day_name="THU" hour="1pm" month="6" swell1="S    1.4 ft @  6 sec" swell2="SE   0.8 ft @  9 sec" wind="NW  11 mph" />
+
+</surfcond_xml>

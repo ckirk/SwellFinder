@@ -24,6 +24,11 @@ class MainController < ApplicationController
   		}
   		@swellData[id] = data
   	end
+    
+    respond_to do |format|
+      format.html
+      format.json { render :json => @swellData.to_json }
+    end
   	#binding.pry
   end
 

@@ -11,6 +11,12 @@ Rails.application.routes.draw do
 
   root 'main#index'
 
+  get '1' => 'main#demo'
+  get '2' => 'main#demo2'
+  get '3' => 'main#demo3'
+  get '4' => 'main#demo4'
+  get '5' => 'main#demo5'
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
