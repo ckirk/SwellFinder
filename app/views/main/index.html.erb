@@ -2,8 +2,11 @@
 <%#= @swellData.inspect %>
 
 <% @swellData.each do |i| %>
-	<p>Time: <%= i[:hour] %></p>
-	<p>Day: <%= i[:day_name] + ", " + i[:month] + '/' + i[:day] %></p>
+	<p>Date: <%= i[:day_name] + ", " + i[:month] + '/' + i[:day] + " " + i[:hour] %></p>
+	<p><%= i[:month] + "/" + i[:day] + "/#{Time.now.year} " + i[:hour] %></p>
+	<% date_string =  i[:month] + "/" + i[:day] + "/#{Time.now.year}-" + i[:hour]%>
+	<p><%= date_string %></p>
+	<p><%= date = DateTime.strptime(date_string, "%m/%d/%Y-%l%P") %></p>
 	<p>Surf: <%= i[:surf] %></p>
 	<p>Wind: <%= i[:wind] %></p>
 	<br>

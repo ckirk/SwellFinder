@@ -7,6 +7,8 @@ class MainController < ApplicationController
   	@swellData = []
   	all_rows.each do |row|
   		id = row['id'].to_i
+      date_string =  row['month'] + "/" + row['day'] + "/#{Time.now.year}-" + row['hour']
+      datetime = DateTime.strptime(date_string, "%m/%d/%Y-%l%P")
 			data = {
   			id: id,
 
@@ -14,6 +16,7 @@ class MainController < ApplicationController
   			day_name: row['day_name'],
   			month: row['month'],
   			day: row['day'],
+        datetime: datetime,
 
   			surf: row['surf'],
   			wind: row['wind'],
@@ -24,7 +27,7 @@ class MainController < ApplicationController
   		}
   		@swellData[id] = data
   	end
-    
+
     respond_to do |format|
       format.html
       format.json { render :json => @swellData.to_json }

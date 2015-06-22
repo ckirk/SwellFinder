@@ -18,6 +18,7 @@ Rails.application.routes.draw do
   get '5' => 'main#demo5'
   get '6' => 'main#demo6'
   get '7' => 'main#demo7'
+  get '8' => 'main#demo8'
 
 
 
