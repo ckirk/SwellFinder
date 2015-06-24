@@ -1,4 +1,4 @@
-Demo 8 - Incoporate Live Data
+Live Swell Predictions
 <br><br>
 
 <!DOCTYPE html>
@@ -60,8 +60,9 @@ $(function() {
 
       var x = d3.time.scale()
           // sets x range to first date -> last date
-          .domain([new Date(swellData[0].datetime), d3.time.day.offset(new Date(swellData[swellData.length - 1].datetime), 1)])
-          .rangeRound([0, width - margin.left - margin.right]);
+          .domain([new Date(swellData[0].datetime), new Date(swellData[swellData.length - 1].datetime)])
+          // sets actual width of graph corresponding to domain
+          .range([0, width - margin.left - margin.right]);
 
       // y axis scale (linear) 0-500
       var y = d3.scale.linear()
@@ -70,7 +71,8 @@ $(function() {
       // x axis
       var xAxis = d3.svg.axis()
           .scale(x)
-          .orient("bottom");
+          .orient("bottom")
+          .ticks(d3.time.day, 1);
 
       // y axis
       var yAxis = d3.svg.axis()
@@ -83,7 +85,7 @@ $(function() {
             return heightNames[i]
           })
 
-      //////
+
       //x.domain(data.map(function(d) { return d.datetime; }));
       y.domain([0, d3.max(data, function(d) { return d.surf; })]);
 
@@ -102,7 +104,7 @@ $(function() {
           .attr("y", 6)
           .attr("dy", ".71em")
           .style("text-anchor", "end")
-          .text("surf");
+          .text("");
 
       // draw bars
       var bar = svg.selectAll(".bar")
@@ -122,6 +124,8 @@ $(function() {
               return "#FF7669"
             }
           })
+
+      // info tooltips
       bar.append("svg:title")
          .text(function(d) { return d.day_name + ', ' + d.hour + ', Wind: ' + d.wind + ', Surf: ' + d.surf; });
 
