@@ -7,15 +7,15 @@ Live Swell Predictions
 
 .bar {
   stroke: #fff;
-  stroke-width: .6px;
+  stroke-width: .3px;
 }
 
 .bar:hover {
-  fill: #999;
+  fill: #555;
 }
 
 .axis {
-  font: 10px sans-serif;
+  font: 14px sans-serif;
 }
 
 .axis path,
@@ -26,7 +26,7 @@ Live Swell Predictions
 }
 
 .x.axis path {
-  display: none;
+  /*display: none;*/
 }
 
 </style>
@@ -62,7 +62,7 @@ $(function() {
           // sets x range to first date -> last date
           .domain([new Date(swellData[0].datetime), new Date(swellData[swellData.length - 1].datetime)])
           // sets actual width of graph corresponding to domain
-          .range([0, width - margin.left - margin.right]);
+          .range([2, width - margin.left - margin.right]);
 
       // y axis scale (linear) 0-500
       var y = d3.scale.linear()
