@@ -1,6 +1,9 @@
 class MainController < ApplicationController
 
   def index
+  end
+
+  def data
   	location = 'wna_nj_seaside'
   	response = HTTParty.get('http://www.swellinfo.com/data/timeline/' + location + '.xml')
   	all_rows = response["surfcond_xml"]["data"]
@@ -33,12 +36,6 @@ class MainController < ApplicationController
       format.json { render :json => @swellData.to_json }
     end
   	#binding.pry
-  end
-
-  def d3_v1
-  end
-
-  def d#_2
   end
 
 end

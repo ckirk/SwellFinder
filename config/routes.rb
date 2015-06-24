@@ -1,16 +1,11 @@
 Rails.application.routes.draw do
   
-  get 'main/index'
+  root 'main#index'           # root routes to index
+  
+  get 'main/data'             # route for json data
+  get 'data' => 'main#data'   # raw data in text format
 
-  get 'main/demo'
-  get 'main/demo2'
-  get 'main/demo3'
-
-  get 'main/d3_v1'
-
-
-  root 'main#index'
-
+  # Demo learning exercises
   get '1' => 'main#demo'
   get '2' => 'main#demo2'
   get '3' => 'main#demo3'
@@ -18,8 +13,6 @@ Rails.application.routes.draw do
   get '5' => 'main#demo5'
   get '6' => 'main#demo6'
   get '7' => 'main#demo7'
-  get '8' => 'main#demo8'
-
 
 
   # The priority is based upon order of creation: first created -> highest priority.
