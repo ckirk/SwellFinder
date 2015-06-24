@@ -36,7 +36,7 @@ Demo 8 - Incoporate Live Data
 
 
 // svg dimensions
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
+var margin = {top: 20, right: 20, bottom: 30, left: 70},
     width = 1200 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -76,17 +76,24 @@ $(function() {
       var yAxis = d3.svg.axis()
           .scale(y)
           .orient("left")
-          .ticks(10, "");
+          .ticks(5, "")
+          .tickValues([0, 10, 20, 30, 40, 50, 60, 70, 80])
+          .tickFormat(function(d, i) {
+            var heightNames = ["Flat", "Knee", "Waist", "Chest", "Shoulder", "Head", "Overhead", "D-Overhead"]
+            return heightNames[i]
+          })
 
       //////
       //x.domain(data.map(function(d) { return d.datetime; }));
       y.domain([0, d3.max(data, function(d) { return d.surf; })]);
 
+      // draw x axis
       svg.append("g")
           .attr("class", "x axis")
           .attr("transform", "translate(0," + height + ")")
           .call(xAxis);
 
+      // draw y axis
       svg.append("g")
           .attr("class", "y axis")
           .call(yAxis)
@@ -97,6 +104,7 @@ $(function() {
           .style("text-anchor", "end")
           .text("surf");
 
+      // draw bars
       var bar = svg.selectAll(".bar")
           .data(data)
         .enter().append("rect")
