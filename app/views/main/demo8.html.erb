@@ -97,7 +97,7 @@ $(function() {
           .style("text-anchor", "end")
           .text("surf");
 
-      svg.selectAll(".bar")
+      var bar = svg.selectAll(".bar")
           .data(data)
         .enter().append("rect")
           .attr("class", "bar")
@@ -114,6 +114,8 @@ $(function() {
               return "#FF7669"
             }
           })
+      bar.append("svg:title")
+         .text(function(d) { return d.day_name + ', ' + d.hour + ', Wind: ' + d.wind + ', Surf: ' + d.surf; });
 
           
 
