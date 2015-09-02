@@ -5,8 +5,12 @@ Live Swell Predictions
 <meta charset="utf-8">
 <style>
 
+body {
+  background-color: #333;
+}
+
 .bar {
-  stroke: #fff;
+  stroke: #333;
   stroke-width: .3px;
 }
 
@@ -18,10 +22,14 @@ Live Swell Predictions
   font: 14px sans-serif;
 }
 
+.tick {
+  fill: #888;
+}
+
 .axis path,
 .axis line {
   fill: none;
-  stroke: #000;
+  stroke: #888;
   shape-rendering: crispEdges;
 }
 
@@ -29,15 +37,46 @@ Live Swell Predictions
   /*display: none;*/
 }
 
+.d3-tip {
+  line-height: 1;
+  /*font-weight: bold;*/
+  font: 14px sans-serif;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ddd;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
 </style>
 <body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 <script>
 
 
 // svg dimensions
 var margin = {top: 20, right: 20, bottom: 30, left: 70},
-    width = 1200 - margin.left - margin.right,
+    width = 1300 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 
@@ -47,6 +86,12 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return d.day_name + ", " + d.hour + "<br>Wind: " + d.wind + "<br>Swell 1: " + d.swell1 + "<br>Swell 2: " + d.swell2;
+  })
 
 // Grab live data
 $(function() {
@@ -85,6 +130,7 @@ $(function() {
             return heightNames[i]
           })
 
+      svg.call(tip);
 
       //x.domain(data.map(function(d) { return d.datetime; }));
       y.domain([0, d3.max(data, function(d) { return d.surf; })]);
@@ -116,14 +162,29 @@ $(function() {
           .attr("y", function(d) { return y(d.surf); })
           .attr("height", function(d) { return height - y(d.surf); })
           .attr("fill", function(d) { 
-            if (d.cond == 1) {
-              return "#6EE165"
-            } else if (d.cond == 2) {
-              return "#79BEFF"
+            var regexDay = /(?:^[6-9]am|^[1][0-1]am)|(?:^[1-8]pm|^12pm)/g
+            // Test for Day
+            if ( regexDay.test(d.hour) ) {
+              if (d.cond == 1) {
+                return "#49A636" // green
+              } else if (d.cond == 2) {
+                return "#588DC0" // blue
+              } else {
+                return "#D16158" // red
+              }
+            // Night
             } else {
-              return "#FF7669"
+              if (d.cond == 1) {
+                return "#25551B" // green
+              } else if (d.cond == 2) {
+                return "#2F4D6C" // blue
+              } else {
+                return "#783833" // red
+              }
             }
           })
+          .on('mouseover', tip.show)
+          .on('mouseout', tip.hide)
 
       // info tooltips
       bar.append("svg:title")
