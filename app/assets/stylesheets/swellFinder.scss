@@ -1,0 +1,78 @@
+body {
+  background-color: #333;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 4em;
+}
+
+#chart_container {
+  background-color: #000;
+  margin: 20px auto;
+  padding: 20px;
+  width: 1225px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.bar {
+  stroke: #333;
+  stroke-width: .3px;
+}
+
+.bar:hover {
+  fill: #555;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+
+.tick {
+  fill: #888;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #888;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  /*display: none;*/
+}
+
+.d3-tip {
+  line-height: 1;
+  /*font-weight: bold;*/
+  font: 14px sans-serif;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ddd;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
