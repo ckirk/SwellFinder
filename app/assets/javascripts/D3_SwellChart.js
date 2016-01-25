@@ -132,15 +132,15 @@ function drawChart() {
 
 
 
-      // Draw Line
-      var lineFunc = d3.svg.line()
-        .x(function(d) { return x(new Date(d.datetime)); })
-        .y(function(d) { return y(d.surf); })
-        .interpolate('basis');
+      // // Draw Line
+      // var lineFunc = d3.svg.line()
+      //   .x(function(d) { return x(new Date(d.datetime)); })
+      //   .y(function(d) { return y(d.surf); })
+      //   .interpolate('basis');
 
-        svg.append('svg:path')
-          .attr('d', lineFunc(swellData))
-          .attr('stroke', '#fff')
-          .attr('stroke-width', 4)
-          .attr('fill', 'none');
+      //   svg.append('svg:path')
+      //     .attr('d', lineFunc(swellData))
+      //     .attr('stroke', '#fff')
+      //     .attr('stroke-width', 4)
+      //     .attr('fill', 'none');
 }

@@ -1,22 +1,63 @@
 body {
-  background-color: #333;
+  background-color: #2B2C2F;
 }
 
 h1 {
   color: #fff;
   font-family: 'Lobster', cursive;
-  margin-left: 30px;
   text-align: center;
   font-size: 4em;
+  margin-bottom: 0;
+}
+h3 {
+  color: #CECECE;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 10px;
 }
 
 #chart_container {
-  background-color: #000;
+  // background-color: #000;
   margin: 20px auto;
   padding: 20px;
   width: 1225px;
-  background-color: #222;
+  // background-color: #222;
   border-radius: 10px;
+}
+
+#key {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  border: 1px solid #777777;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #777777;
+  font-size: .9em;
+  .section {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+  }
+  .swatch {
+    height: 20px;
+    width: 20px;
+    background-color: teal;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 100;
+    border-radius: 3px;
+    &.clean {
+      background-color: rgb(73, 166, 54);
+    }
+    &.semi {
+      background-color: rgb(88, 141, 192);
+    }
+    &.choppy {
+      background-color: rgb(209, 97, 88);
+    }
+  }
 }
 
 .bar {
