@@ -13,7 +13,8 @@ h3 {
   color: #CECECE;
   text-align: center;
   font-weight: 100;
-  margin-top: 10px;
+  margin-top: 0;
+  font-size: .9em;
 }
 
 #chart_container {
@@ -28,7 +29,7 @@ h3 {
 #key {
   position: relative;
   width: 300px;
-  height: 60px;
+  height: 70px;
   border: 1px solid #777777;
   border-radius: 5px;
   margin: 0 auto;
@@ -38,6 +39,7 @@ h3 {
     display: inline-block;
     width: 32%;
     text-align: center;
+    margin-top: 8px;
   }
   .swatch {
     height: 20px;
